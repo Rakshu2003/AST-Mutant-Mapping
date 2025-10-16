@@ -12,14 +12,14 @@ AST-Mutant-Mapping/
 ├─ scripts/  
 │   ├─ extract.py        # Extracts mutant information from mutants.log  
 │   ├─ parse_ast.py      # Parses Java code to extract all condition blocks  
+│   ├─ map_mutants.py    # Maps mutants with corresponding AST condition blocks  
 │  
 ├─ data/  
 │   ├─ all_condition_blocks.txt   # Extracted condition nodes from Java source files  
 │   ├─ mutants_dataframe.csv      # Parsed mutant data with class, line, and operator  
-│   ├─ mutation_scores.csv        # KillMap-based mutation scores  
+│   ├─ mutants_mapped.csv         # Output after mapping mutants to AST conditions  
 │  
 └─ README.md
-
 ---
 
 ## ⚙️ How It Works
