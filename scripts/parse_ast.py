@@ -113,10 +113,10 @@ def main():
                         print("✗ No blocks or error")
     
     print("=" * 60)
-    print(f"\n✅ Extraction complete!")
-    print(f"📁 Processed {total_files} files")
-    print(f"📊 Found {total_blocks} condition blocks")
-    print(f"💾 Output saved to: {output_file_path}")
+    print(f"\n Extraction complete!")
+    print(f"Processed {total_files} files")
+    print(f"Found {total_blocks} condition blocks")
+    print(f"Output saved to: {output_file_path}")
 
 if __name__ == "__main__":
     main()

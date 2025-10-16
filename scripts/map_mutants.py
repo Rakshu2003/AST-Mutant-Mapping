@@ -155,7 +155,7 @@ def main():
     
     # Save result
     mapped_df.to_csv(output_csv, index=False)
-    print(f"\n✅ Mapping complete! Saved to: {output_csv}")
+    print(f"\n Mapping complete! Saved to: {output_csv}")
     
     # Print statistics
     print("\n" + "="*60)
