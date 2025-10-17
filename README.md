@@ -40,3 +40,8 @@ defects4j test
 
 # Run mutation testing
 defects4j mutation
+
+## UML Diagram
+
+![UML Diagram](images/uml.png)
+
